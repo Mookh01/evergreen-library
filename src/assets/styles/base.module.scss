@@ -1,0 +1,28 @@
+//bring in the normalizer stylesheet to base styles
+@import './_normalize.scss';
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+:root {
+  --colorPrimaryBase: #073451;
+  --colorPrimaryLight: #214E6B;
+  --colorPrimaryDark: #001B38;
+  --colorPrimaryFaded: #628397;
+  --colorPrimaryTrans: rgba(7, 51, 80, 0.5);
+  --colorSecondaryBase: #e3761c;
+  --colorSecondaryLight: #FD9036;
+  --colorSecondaryDark: #CA5D03;
+  --colorSecondaryTrans: rgba(227, 118, 28, 0.5);
+  --colorFormInputPlaceholder: rgba(44, 44, 44, .5);
+  --colorFormInputFontColor: #474747;
+  --colorDanger: #ee2727;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 400;
+  text-rendering: optimizelegibility;
+  line-height: 1.5;
+}

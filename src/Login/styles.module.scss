@@ -1,0 +1,38 @@
+
+.container {
+  background-color: white;
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+}
+.pageContainer {
+  height: 100vh;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: var(--colorPrimaryBase);
+}
+
+.title {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.inputsContainer {
+  margin-bottom: 6px;
+}
+
+.errorMessage {
+  margin-bottom: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  color: var(--colorDanger);
+}
+
+.termsLinkWrapper {
+  padding-top: 10px;
+  display: grid;
+  justify-content: center;
+}

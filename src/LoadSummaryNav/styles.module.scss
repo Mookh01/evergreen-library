@@ -1,0 +1,36 @@
+
+.container {
+  margin: 0 auto;
+  // width: 100%;
+  max-width: 1000px;
+  padding: 20px;
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto auto minmax(0, 1fr); 
+}
+
+.heading {
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+
+.button {
+  margin: 20px;
+  font-size: 24px;
+  padding: 16px;
+  transition: none;
+  // background-color: white;
+  // border: 1px solid var(--colorPrimaryBase);
+  // color: var(--colorPrimaryBase);
+
+  &:hover {
+    background-color: var(--colorPrimaryBase);
+    color: white;
+  }
+  
+  &.active {
+    background-color: var(--colorPrimaryBase);  
+    color: white;
+  }
+}
