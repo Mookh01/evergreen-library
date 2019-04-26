@@ -1,15 +1,14 @@
 import React, { Component } from 'react'
 import { Route, Switch} from 'react-router-dom'
-import PropTypes from 'prop-types'
+
 import LayOut from '../Layout'
 import Buttons from '../Buttons'
 import Login from '../Login'
 import LoadSummary from '../LoadSummary'
+import LoadGroupsContainer from '../LoadGroupsContainer'
 import styles from './styles.module.scss'
 export default class Routes extends Component {
-  static propTypes = {
-    prop: PropTypes
-  }
+
 
   render() {
     return (
@@ -19,6 +18,7 @@ export default class Routes extends Component {
         <Route path='/buttons' component={Buttons} />
         <Route path='/login' component={Login} />
         <Route path='/loadsummary' component={LoadSummary} />
+        <Route path='/groups' component={LoadGroupsContainer} />
       </Switch>
 
     </div>

@@ -1,0 +1,25 @@
+.container {
+  background-color: var(--colorPrimaryBase);
+  position: relative;
+  z-index: 1;
+}
+
+.innerWrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+
+.title {
+  padding-left: 20px;
+  color: white;
+  font-size: 24px;
+}
+
+.logoutButton {
+  font-size: 20px;
+  padding: 0;
+  color: white;
+}

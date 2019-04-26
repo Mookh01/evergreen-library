@@ -1,16 +1,15 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-import styles from './styles.module.scss'
 
-export default class LoadList extends Component {
-  static propTypes = {
-    prop: PropTypes
-  }
+import styles from './styles.module.scss'
+import LoadLineButton from '../LoadLineButton'
+export default class LoadLine extends Component {
+
 
   render() {
     return (
       <div className={styles.container}>
-
+        <h3>LoadLine Component</h3>
+        <LoadLineButton></LoadLineButton>
       </div>
     )
   }
